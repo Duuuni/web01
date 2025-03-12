@@ -1,32 +1,45 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 
-.pacifico-regular {
-    font-family: "Pacifico", cursive;
+.rubik-glitch-regular {
+    font-family: "Rubik Glitch", system-ui;
     font-weight: 400;
     font-style: normal;
   }
-  
-  
-  
 
+  
 body{
-    font-family: "Pacifico", cursive;
+    font-family: "Rubik Glitch", system-ui;
+    margin: 0;
+    font-size: 5rem;
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     height: 100vh;
-    color: #cbfff4;
-    background-color: #000000;
-    margin: 0;
+    background-color: rgb(13, 9, 31);
 }
 
-.heading{
+.text-box{
+    line-height: 4rem;
+}
+
+.text-box span{
     font-size: 5rem;
-    text-align: center;
-    margin: 0;
-    background-color: #1baf96;
-    background-image: linear-gradient(170deg,#99eed4 0%, #dcfff6 30%, #2169c7 77%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(255, 244, 228);;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+}
+
+.text-box span:nth-child(1){
+    letter-spacing: 34px;
+}
+.text-box span:nth-child(3){
+    letter-spacing: 23px;
+}
+.text-box span:nth-child(4){
+    letter-spacing: 40px;
+}
+.text-box span:first-letter{
+    color: rgb(26, 130, 226);
 }
